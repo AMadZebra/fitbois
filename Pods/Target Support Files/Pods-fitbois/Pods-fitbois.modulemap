@@ -1,0 +1,6 @@
+framework module Pods_fitbois {
+  umbrella header "Pods-fitbois-umbrella.h"
+
+  export *
+  module * { export * }
+}

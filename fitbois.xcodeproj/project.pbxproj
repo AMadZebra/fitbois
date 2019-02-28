@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0935C321B6435A003914C7 /* ExperienceLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0935C221B6435A003914C7 /* ExperienceLevelViewController.swift */; };
+		6B2F738921B9B67D00905DB6 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F738821B9B67D00905DB6 /* TimeViewController.swift */; };
+		6B4E32FB21A7D73100A9FA75 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E32FA21A7D73100A9FA75 /* Api.swift */; };
+		6B4E32FD21A7D74A00A9FA75 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E32FC21A7D74A00A9FA75 /* classes.swift */; };
+		6B4E32FF21A7D79900A9FA75 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E32FE21A7D79900A9FA75 /* VerificationViewController.swift */; };
+		6B4E330121A7D7A000A9FA75 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E330021A7D7A000A9FA75 /* LoginViewController.swift */; };
+		6B6311C821A7321700DCB4E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B6311C721A7321700DCB4E5 /* GoogleService-Info.plist */; };
+		6B6311CA21A74B6400DCB4E5 /* StartWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6311C921A74B6400DCB4E5 /* StartWorkoutViewController.swift */; };
+		6BAB7BF821B4BC2F003D49CD /* ExerciseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAB7BF721B4BC2F003D49CD /* ExerciseDetailsViewController.swift */; };
+		6BAB7BFA21B5F795003D49CD /* ScheduleWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAB7BF921B5F795003D49CD /* ScheduleWorkoutViewController.swift */; };
+		6BAE3719219B744100F24332 /* RoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE3718219B744100F24332 /* RoutineViewController.swift */; };
+		6BAE371B219B779000F24332 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE371A219B779000F24332 /* ExercisesViewController.swift */; };
+		6BB12FD4219AAE12006964B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB12FD3219AAE12006964B4 /* AppDelegate.swift */; };
+		6BB12FD6219AAE12006964B4 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB12FD5219AAE12006964B4 /* WorkoutViewController.swift */; };
+		6BB12FD9219AAE12006964B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB12FD7219AAE12006964B4 /* Main.storyboard */; };
+		6BB12FDB219AAE14006964B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB12FDA219AAE14006964B4 /* Assets.xcassets */; };
+		6BB12FDE219AAE14006964B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB12FDC219AAE14006964B4 /* LaunchScreen.storyboard */; };
+		6BB12FE9219AAE14006964B4 /* asdfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB12FE8219AAE14006964B4 /* asdfTests.swift */; };
+		6BB12FF4219AAE14006964B4 /* asdfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB12FF3219AAE14006964B4 /* asdfUITests.swift */; };
+		6BC81A2721A4F92D00EC894A /* NewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC81A2621A4F92D00EC894A /* NewWorkoutViewController.swift */; };
+		A36B436EC37FBA8E29FE1C62 /* Pods_fitbois.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1F1A63B436BCCD6F508CF3 /* Pods_fitbois.framework */; };
+		FF770D5A21B8F45A00B23375 /* FutureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF770D5921B8F45A00B23375 /* FutureViewController.swift */; };
+		FF770D5C21B914F600B23375 /* FutureViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF770D5B21B914F600B23375 /* FutureViewCell.swift */; };
+		FFB3959A21B4CE6300DF1D68 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3959921B4CE6300DF1D68 /* ExpandableHeaderView.swift */; };
+		FFC5DF9F21B0DBEA00DE332A /* ExerciseTableCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5DF9E21B0DBEA00DE332A /* ExerciseTableCellTableViewCell.swift */; };
+		FFD0E1F121BC856C006A6DE1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD0E1F021BC856C006A6DE1 /* CollectionViewCell.swift */; };
+		FFE25E6621A4BFF500C81B58 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE25E6521A4BFF500C81B58 /* HistoryViewController.swift */; };
+		FFE6A3DF21A54F3700C398F9 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6A3DE21A54F3700C398F9 /* DateViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BB12FE5219AAE14006964B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB12FC8219AAE11006964B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB12FCF219AAE11006964B4;
+			remoteInfo = asdf;
+		};
+		6BB12FF0219AAE14006964B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB12FC8219AAE11006964B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB12FCF219AAE11006964B4;
+			remoteInfo = asdf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F0935C221B6435A003914C7 /* ExperienceLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceLevelViewController.swift; sourceTree = "<group>"; };
+		427EC2E0BCBDEA1B1B72C3B3 /* Pods-fitbois.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitbois.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fitbois/Pods-fitbois.debug.xcconfig"; sourceTree = "<group>"; };
+		6B2F738821B9B67D00905DB6 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		6B4E32FA21A7D73100A9FA75 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		6B4E32FC21A7D74A00A9FA75 /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		6B4E32FE21A7D79900A9FA75 /* VerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		6B4E330021A7D7A000A9FA75 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6B6311C721A7321700DCB4E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B6311C921A74B6400DCB4E5 /* StartWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorkoutViewController.swift; sourceTree = "<group>"; };
+		6BAB7BF721B4BC2F003D49CD /* ExerciseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsViewController.swift; sourceTree = "<group>"; };
+		6BAB7BF921B5F795003D49CD /* ScheduleWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWorkoutViewController.swift; sourceTree = "<group>"; };
+		6BAE3718219B744100F24332 /* RoutineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineViewController.swift; sourceTree = "<group>"; };
+		6BAE371A219B779000F24332 /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		6BB12FD0219AAE12006964B4 /* fitbois.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitbois.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB12FD3219AAE12006964B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BB12FD5219AAE12006964B4 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		6BB12FD8219AAE12006964B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BB12FDA219AAE14006964B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BB12FDD219AAE14006964B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BB12FDF219AAE14006964B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB12FE4219AAE14006964B4 /* fitboisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fitboisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB12FE8219AAE14006964B4 /* asdfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asdfTests.swift; sourceTree = "<group>"; };
+		6BB12FEA219AAE14006964B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB12FEF219AAE14006964B4 /* fitboisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fitboisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB12FF3219AAE14006964B4 /* asdfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asdfUITests.swift; sourceTree = "<group>"; };
+		6BB12FF5219AAE14006964B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC81A2621A4F92D00EC894A /* NewWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutViewController.swift; sourceTree = "<group>"; };
+		8E1F1A63B436BCCD6F508CF3 /* Pods_fitbois.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fitbois.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CCD97D87E0CC4B80356E20 /* Pods-fitbois.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitbois.release.xcconfig"; path = "Pods/Target Support Files/Pods-fitbois/Pods-fitbois.release.xcconfig"; sourceTree = "<group>"; };
+		FF770D5921B8F45A00B23375 /* FutureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewController.swift; sourceTree = "<group>"; };
+		FF770D5B21B914F600B23375 /* FutureViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewCell.swift; sourceTree = "<group>"; };
+		FFB3959921B4CE6300DF1D68 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		FFC5DF9E21B0DBEA00DE332A /* ExerciseTableCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableCellTableViewCell.swift; sourceTree = "<group>"; };
+		FFD0E1F021BC856C006A6DE1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FFE25E6521A4BFF500C81B58 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		FFE6A3DE21A54F3700C398F9 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB12FCD219AAE11006964B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36B436EC37FBA8E29FE1C62 /* Pods_fitbois.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB12FE1219AAE14006964B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB12FEC219AAE14006964B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB12FC7219AAE11006964B4 = {
+			isa = PBXGroup;
+			children = (
+				6BB12FD2219AAE12006964B4 /* fitbois */,
+				6BB12FE7219AAE14006964B4 /* fitboisTests */,
+				6BB12FF2219AAE14006964B4 /* fitboisUITests */,
+				6BB12FD1219AAE12006964B4 /* Products */,
+				BAE05D688E0D41677CE4C301 /* Pods */,
+				F5C050F75180F920C662A3F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB12FD1219AAE12006964B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB12FD0219AAE12006964B4 /* fitbois.app */,
+				6BB12FE4219AAE14006964B4 /* fitboisTests.xctest */,
+				6BB12FEF219AAE14006964B4 /* fitboisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB12FD2219AAE12006964B4 /* fitbois */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E330021A7D7A000A9FA75 /* LoginViewController.swift */,
+				6B4E32FE21A7D79900A9FA75 /* VerificationViewController.swift */,
+				0F0935C221B6435A003914C7 /* ExperienceLevelViewController.swift */,
+				6B6311C721A7321700DCB4E5 /* GoogleService-Info.plist */,
+				6BAE3718219B744100F24332 /* RoutineViewController.swift */,
+				6BC81A2621A4F92D00EC894A /* NewWorkoutViewController.swift */,
+				6B6311C921A74B6400DCB4E5 /* StartWorkoutViewController.swift */,
+				6BB12FD5219AAE12006964B4 /* WorkoutViewController.swift */,
+				6BAE371A219B779000F24332 /* ExercisesViewController.swift */,
+				6BAB7BF721B4BC2F003D49CD /* ExerciseDetailsViewController.swift */,
+				6BB12FD3219AAE12006964B4 /* AppDelegate.swift */,
+				6B4E32FA21A7D73100A9FA75 /* Api.swift */,
+				6B4E32FC21A7D74A00A9FA75 /* classes.swift */,
+				6BB12FD7219AAE12006964B4 /* Main.storyboard */,
+				6BB12FDA219AAE14006964B4 /* Assets.xcassets */,
+				6BB12FDC219AAE14006964B4 /* LaunchScreen.storyboard */,
+				6BB12FDF219AAE14006964B4 /* Info.plist */,
+				FFE25E6521A4BFF500C81B58 /* HistoryViewController.swift */,
+				6BAB7BF921B5F795003D49CD /* ScheduleWorkoutViewController.swift */,
+				FFE6A3DE21A54F3700C398F9 /* DateViewController.swift */,
+				FFC5DF9E21B0DBEA00DE332A /* ExerciseTableCellTableViewCell.swift */,
+				FFB3959921B4CE6300DF1D68 /* ExpandableHeaderView.swift */,
+				FF770D5921B8F45A00B23375 /* FutureViewController.swift */,
+				FF770D5B21B914F600B23375 /* FutureViewCell.swift */,
+				6B2F738821B9B67D00905DB6 /* TimeViewController.swift */,
+				FFD0E1F021BC856C006A6DE1 /* CollectionViewCell.swift */,
+			);
+			path = fitbois;
+			sourceTree = "<group>";
+		};
+		6BB12FE7219AAE14006964B4 /* fitboisTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB12FE8219AAE14006964B4 /* asdfTests.swift */,
+				6BB12FEA219AAE14006964B4 /* Info.plist */,
+			);
+			path = fitboisTests;
+			sourceTree = "<group>";
+		};
+		6BB12FF2219AAE14006964B4 /* fitboisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB12FF3219AAE14006964B4 /* asdfUITests.swift */,
+				6BB12FF5219AAE14006964B4 /* Info.plist */,
+			);
+			path = fitboisUITests;
+			sourceTree = "<group>";
+		};
+		BAE05D688E0D41677CE4C301 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				427EC2E0BCBDEA1B1B72C3B3 /* Pods-fitbois.debug.xcconfig */,
+				B8CCD97D87E0CC4B80356E20 /* Pods-fitbois.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5C050F75180F920C662A3F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E1F1A63B436BCCD6F508CF3 /* Pods_fitbois.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB12FCF219AAE11006964B4 /* fitbois */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB12FF8219AAE14006964B4 /* Build configuration list for PBXNativeTarget "fitbois" */;
+			buildPhases = (
+				C70029A598C28AF374F0C939 /* [CP] Check Pods Manifest.lock */,
+				6BB12FCC219AAE11006964B4 /* Sources */,
+				6BB12FCD219AAE11006964B4 /* Frameworks */,
+				6BB12FCE219AAE11006964B4 /* Resources */,
+				275FC0755175B17D2E63E51B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fitbois;
+			productName = asdf;
+			productReference = 6BB12FD0219AAE12006964B4 /* fitbois.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BB12FE3219AAE14006964B4 /* fitboisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB12FFB219AAE14006964B4 /* Build configuration list for PBXNativeTarget "fitboisTests" */;
+			buildPhases = (
+				6BB12FE0219AAE14006964B4 /* Sources */,
+				6BB12FE1219AAE14006964B4 /* Frameworks */,
+				6BB12FE2219AAE14006964B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB12FE6219AAE14006964B4 /* PBXTargetDependency */,
+			);
+			name = fitboisTests;
+			productName = asdfTests;
+			productReference = 6BB12FE4219AAE14006964B4 /* fitboisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BB12FEE219AAE14006964B4 /* fitboisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB12FFE219AAE14006964B4 /* Build configuration list for PBXNativeTarget "fitboisUITests" */;
+			buildPhases = (
+				6BB12FEB219AAE14006964B4 /* Sources */,
+				6BB12FEC219AAE14006964B4 /* Frameworks */,
+				6BB12FED219AAE14006964B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB12FF1219AAE14006964B4 /* PBXTargetDependency */,
+			);
+			name = fitboisUITests;
+			productName = asdfUITests;
+			productReference = 6BB12FEF219AAE14006964B4 /* fitboisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB12FC8219AAE11006964B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Krishna Chenna";
+				TargetAttributes = {
+					6BB12FCF219AAE11006964B4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6BB12FE3219AAE14006964B4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6BB12FCF219AAE11006964B4;
+					};
+					6BB12FEE219AAE14006964B4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6BB12FCF219AAE11006964B4;
+					};
+				};
+			};
+			buildConfigurationList = 6BB12FCB219AAE11006964B4 /* Build configuration list for PBXProject "fitbois" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB12FC7219AAE11006964B4;
+			productRefGroup = 6BB12FD1219AAE12006964B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB12FCF219AAE11006964B4 /* fitbois */,
+				6BB12FE3219AAE14006964B4 /* fitboisTests */,
+				6BB12FEE219AAE14006964B4 /* fitboisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB12FCE219AAE11006964B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB12FDE219AAE14006964B4 /* LaunchScreen.storyboard in Resources */,
+				6B6311C821A7321700DCB4E5 /* GoogleService-Info.plist in Resources */,
+				6BB12FDB219AAE14006964B4 /* Assets.xcassets in Resources */,
+				6BB12FD9219AAE12006964B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB12FE2219AAE14006964B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB12FED219AAE14006964B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		275FC0755175B17D2E63E51B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fitbois/Pods-fitbois-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fitbois/Pods-fitbois-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C70029A598C28AF374F0C939 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fitbois-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB12FCC219AAE11006964B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE6A3DF21A54F3700C398F9 /* DateViewController.swift in Sources */,
+				6B2F738921B9B67D00905DB6 /* TimeViewController.swift in Sources */,
+				0F0935C321B6435A003914C7 /* ExperienceLevelViewController.swift in Sources */,
+				FFC5DF9F21B0DBEA00DE332A /* ExerciseTableCellTableViewCell.swift in Sources */,
+				FF770D5A21B8F45A00B23375 /* FutureViewController.swift in Sources */,
+				6BB12FD6219AAE12006964B4 /* WorkoutViewController.swift in Sources */,
+				6BAE3719219B744100F24332 /* RoutineViewController.swift in Sources */,
+				6B4E32FD21A7D74A00A9FA75 /* classes.swift in Sources */,
+				6B6311CA21A74B6400DCB4E5 /* StartWorkoutViewController.swift in Sources */,
+				6BAB7BFA21B5F795003D49CD /* ScheduleWorkoutViewController.swift in Sources */,
+				FFD0E1F121BC856C006A6DE1 /* CollectionViewCell.swift in Sources */,
+				6B4E32FF21A7D79900A9FA75 /* VerificationViewController.swift in Sources */,
+				FFE25E6621A4BFF500C81B58 /* HistoryViewController.swift in Sources */,
+				6BAE371B219B779000F24332 /* ExercisesViewController.swift in Sources */,
+				6BB12FD4219AAE12006964B4 /* AppDelegate.swift in Sources */,
+				6BAB7BF821B4BC2F003D49CD /* ExerciseDetailsViewController.swift in Sources */,
+				6B4E32FB21A7D73100A9FA75 /* Api.swift in Sources */,
+				FFB3959A21B4CE6300DF1D68 /* ExpandableHeaderView.swift in Sources */,
+				FF770D5C21B914F600B23375 /* FutureViewCell.swift in Sources */,
+				6B4E330121A7D7A000A9FA75 /* LoginViewController.swift in Sources */,
+				6BC81A2721A4F92D00EC894A /* NewWorkoutViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB12FE0219AAE14006964B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB12FE9219AAE14006964B4 /* asdfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB12FEB219AAE14006964B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB12FF4219AAE14006964B4 /* asdfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BB12FE6219AAE14006964B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB12FCF219AAE11006964B4 /* fitbois */;
+			targetProxy = 6BB12FE5219AAE14006964B4 /* PBXContainerItemProxy */;
+		};
+		6BB12FF1219AAE14006964B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB12FCF219AAE11006964B4 /* fitbois */;
+			targetProxy = 6BB12FF0219AAE14006964B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BB12FD7219AAE12006964B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB12FD8219AAE12006964B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BB12FDC219AAE14006964B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB12FDD219AAE14006964B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BB12FF6219AAE14006964B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BB12FF7219AAE14006964B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BB12FF9219AAE14006964B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427EC2E0BCBDEA1B1B72C3B3 /* Pods-fitbois.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QW4STS26NJ;
+				INFOPLIST_FILE = "$(SRCROOT)/fitbois/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BB12FFA219AAE14006964B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CCD97D87E0CC4B80356E20 /* Pods-fitbois.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QW4STS26NJ;
+				INFOPLIST_FILE = "$(SRCROOT)/fitbois/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BB12FFC219AAE14006964B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = asdfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fitbois.app/fitbois";
+			};
+			name = Debug;
+		};
+		6BB12FFD219AAE14006964B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = asdfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fitbois.app/fitbois";
+			};
+			name = Release;
+		};
+		6BB12FFF219AAE14006964B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = asdfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = asdf;
+			};
+			name = Debug;
+		};
+		6BB13000219AAE14006964B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = asdfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asdfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = asdf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB12FCB219AAE11006964B4 /* Build configuration list for PBXProject "fitbois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB12FF6219AAE14006964B4 /* Debug */,
+				6BB12FF7219AAE14006964B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB12FF8219AAE14006964B4 /* Build configuration list for PBXNativeTarget "fitbois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB12FF9219AAE14006964B4 /* Debug */,
+				6BB12FFA219AAE14006964B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB12FFB219AAE14006964B4 /* Build configuration list for PBXNativeTarget "fitboisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB12FFC219AAE14006964B4 /* Debug */,
+				6BB12FFD219AAE14006964B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB12FFE219AAE14006964B4 /* Build configuration list for PBXNativeTarget "fitboisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB12FFF219AAE14006964B4 /* Debug */,
+				6BB13000219AAE14006964B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB12FC8219AAE11006964B4 /* Project object */;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitbois/RoutineViewController.swift"
+            timestampString = "565901345.065778"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "displayScheduledWorkout()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitbois.RoutineViewController.displayScheduledWorkout() -&gt; ()"
+                  moduleName = "fitbois"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Krishna/Desktop/UCD/Year%204/Fall/ECS%20189E/fitness-app/fitbois/RoutineViewController.swift"
+                  timestampString = "565845549.236892"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "220"
+                  endingLineNumber = "220"
+                  offsetFromSymbolStart = "375">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in fitbois.RoutineViewController.displayScheduledWorkout() -&gt; ()"
+                  moduleName = "fitbois"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Krishna/Desktop/UCD/Year%204/Fall/ECS%20189E/fitness-app/fitbois/RoutineViewController.swift"
+                  timestampString = "565845549.241253"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
